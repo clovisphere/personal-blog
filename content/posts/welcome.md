@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
 date: 2020-06-30T17:17:39+03:00
-draft: true
+draft: false
 ---
 
 # Little things..
