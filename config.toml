@@ -1,0 +1,78 @@
+baseURL = "https://clovisphere.com"
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "clovisphere - personal blog"
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+enableEmoji = true
+summaryLength = 20
+[params]
+# LoveIt theme version
+version = "0.2.X"
+description = "My personal blog"
+dateFormat = "2006-01-02"
+# Home page config
+[params.home]
+# Home page profile
+[params.home.profile]
+enable = true
+# URL of avatar shown in home page
+avatarURL = "/images/avatar.jpeg"
+# LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+title = "Clovis Mugaruka"
+# subtitle shown in home page
+subtitle = "Hobbyist Programmer. Wannabe Guitarist. Rumba Aficionado. All-Around G33k."
+# whether to use typeit animation for subtitle
+typeit = true
+# whether to show social links
+social = true
+# LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+disclaimer = ""
+# Home page posts
+[params.home.posts]
+enable = true
+# special amount of posts in each home posts page
+paginate = 3
+# LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+# default behavior when you don't set "hiddenFromHomePage" in front matter
+defaultHiddenFromHomePage = false
+# Social config about the author
+[params.social]
+GitHub   = "clovisphere"
+Linkedin = "clovis-mugaruka-429769132/"
+Twitter  = "clovisphere"
+Email    = "clovis.mugaruka@gmail.com"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+# you can add extra information before the name (HTML format is supported), such as icons
+pre = ""
+# you can add extra information after the name (HTML format is supported), such as icons
+post = ""
+name = "Posts"
+url = "/posts/"
+# title will be shown when you hover on this menu link
+title = ""
+weight = 1
+[[menu.main]]
+identifier = "about"
+pre = ""
+post = ""
+name = "About"
+url = "about"
+title = ""
+weight = 2
+# Markup related configuration in Hugo
+[markup]
+# Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+[markup.highlight]
+# false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+noClasses = false
+
+# Author config
+[author]
+name = "clov"
+email = "clovis.mugaruka@gmail.com"
+link = ""
