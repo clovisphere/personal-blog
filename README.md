@@ -1,3 +1,3 @@
 # Personal blog
 
-Mostly for [Hugo]'s content and other source files.
+Mostly for [Hugo](https://gohugo.io/)'s content and other source files.
